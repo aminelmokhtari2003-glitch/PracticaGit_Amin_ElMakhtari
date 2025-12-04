@@ -6,7 +6,7 @@ namespace PracticaGit_Amin_ElMakhtari
     {
         static void Main(string[] args)
         {
-            Persona persona = new Persona("Amin", 20);
+            Persona persona = new Persona("Amin", 22s);
             Salutador salutador = new Salutador();
 
             salutador.Saluda(persona);
